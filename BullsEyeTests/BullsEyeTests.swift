@@ -43,6 +43,7 @@ class BullsEyeTests: XCTestCase {
     super.tearDown()
   }
   
+  
   func testScoreIsComputedWhenGuessGTTarget() {
     // 1. given
     let guess = sut.targetValue + 5
